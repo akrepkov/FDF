@@ -8,6 +8,7 @@ LFT = $(LFT_DIR)/$(LFT_NAME)
 
 HEADERS	:= -I ./include -I $(LIBMLX)/include
 LIBS	:= $(LIBMLX)/build/libmlx42.a -lglfw3 -framework Cocoa -framework OpenGL -framework IOKit
+/*LIBS	:= $(LIBMLX)/build/libmlx42.a -ldl -lglfw -pthread -fPIE -lm $(LFT_DIR)/libft.a*/
 SRCS	:= $(shell find ./src -iname "*.c") fdf.c
 OBJS	:= ${SRCS:.c=.o}
 LFT_O := $(shell find $(LFT_DIR) -iname "*.o") 

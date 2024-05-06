@@ -9,5 +9,26 @@ To render a landscape, execute the program with a .fdf file as a parameter:
 <pre>
 ./fdf maps/42.fdf
 </pre>
+The landscape offers interactive features for manipulation, allowing users to adjust its position, rotation, and zoom level.
+Zooming:
 
+    Zoom In: Press 1
+    Zoom Out: Press 2
+
+Movement:
+
+    Vertical Movement:
+        Up: Press W
+        Down: Press S
+
+    Horizontal Movement:
+        Left: Press A
+        Right: Press D
+
+Rotation:
+
+    Clockwise Rotation: Press =
+    Counterclockwise Rotation: Press -
+
+  
 <img src="first.png"  style=" height: auto;"><img src="mars.png" style="height: auto;">
